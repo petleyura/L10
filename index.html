@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 10</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__menu menu">
+			<div class="logo">
+				<span class="uzbe">Uzbek</span>
+				<span class="klar">lar.</span>
+				<span class="net">net</span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li>
+						<a href="" class="menu__link">фильмы</a>
+						<ul class="menu__list2">
+							<li><a href="" class="menu__link2">ужасы</a></li>
+							<li><a href="" class="menu__link2">комедии</a></li>
+							<li><a href="" class="menu__link2">фантастика</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="" class="menu__link">клипы</a>
+						<ul class="menu__list2">
+							<li><a href="" class="menu__link2">поп</a></li>
+							<li><a href="" class="menu__link2">рок</a></li>
+							<li><a href="" class="menu__link2">club</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="" class="menu__link">Музыка</a>
+						<ul class="menu__list2">
+							<li><a href="" class="menu__link2">POP</a></li>
+							<li><a href="" class="menu__link2">jaz</a></li>
+							<li><a href="" class="menu__link2">folk</a></li>
+						</ul>
+					</li>
+					<li>
+						<form action="" method="get">
+							<div class="form__input1">
+								<input id="search" name="search" placeholder="Что ищем???" class="input1" type="text">
+							</div>
+						</form>
+					</li>
+					<li>
+						<a href="" class="menu__link"><img src="img/icon/Vector 3.png" alt=""></a>
+					</li>
+					<li>
+						<a href="" class="menu__link"><img class="elips" src="img/icon/Ellipse 1.png" alt=""></a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h3>Вход</h3>
+		<div class="form">
+			<h2>Регистрация</h2>
+			<form action="" method="get" class="register">
+				<input type="text" placeholder="Имя*" class="input">
+				<input type="text" placeholder="Фамилия*" class="input">
+				<input type="text" placeholder="Логин*" class="input">
+				<input name="email" type="email" class="input" placeholder="email*">
+				<input name="password" type="password" class="input" placeholder="Пароль*">
+				<input name="password" type="password" class="input" placeholder="Повторить пароль*">
+				<div class="input__menu">
+					<div class="form__input">
+						<input id="men" name="ale" class="input fi" type="radio">
+						<label class="form__label" for="men">Мужчина</label>
+					</div>
+					<div class="form__input">
+						<input id="women" name="ale" class="input fi" type="radio">
+						<label class="form__label" for="women">Женщина</label>
+					</div>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox__input" type="checkbox" name="rules" id="check">
+					<label class="checkbox__label" for="check">Я согласен с <a>Условия и правила</a></label>
+				</div>
+				<button class="form__button" type="submit">Регистрация</button>
+			</form>
+		</div>
+		<p class="main">У вас есть аккаунт? <a href="">Войти</a></p>
+	</main>
+
+
+
+	<!-- <form class="form" enctype="multipart/form-data" action="#">
+			
+			<div class="form__line">
+				<div class="form__input">
+					<label class="form__label" for="inputname">Введите имя</label>
+					<input id="inputname" minlength="3" maxlength="10" name="username" placeholder="Введите имя *" class="input" type="text">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input disabled value="Вася" class="input" type="text">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="number">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="tel">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="time">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="date">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="password">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" name="email" type="email">
+				</div>
+			</div>
+			
+			<div class="form__line">
+				<div class="form__input">
+					<div class="checkbox">
+						<input tabindex="1" class="checkbox__input" checked type="checkbox" value="good" name="html" id="checkhtml">
+						<label class="checkbox__label" for="checkhtml">Знаешь HTML?</label>
+					</div>
+				</div>
+				<div class="form__input">
+					<div class="checkbox">
+						<input class="checkbox__input" type="checkbox" name="css" id="checkcss">
+						<label class="checkbox__label" for="checkcss">Знаешь HTML?</label>
+					</div>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<div class="option">
+						<input class="option__input" type="radio" name="sex" id="male">
+						<label class="option__label" for="male">Мужик</label>
+					</div>
+				</div>
+				<div class="form__input">
+					<div class="option">
+						<input class="option__input" checked type="radio" name="sex" id="female">
+						<label class="option__label" for="female">Барышня</label>
+					</div>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<input class="input" type="radio" value="autumn" name="season" id="male2">
+					<label class="form__checkbox-label" for="male2">Осень</label>
+				</div>
+				<div class="form__input">
+					<input class="input" type="radio" value="winter" name="season" id="female2">
+					<label class="form__checkbox-label" for="female2">Зима</label>
+				</div>
+				<div class="form__input">
+					<input class="input" checked type="radio" value="spring" name="season" id="female3">
+					<label class="form__checkbox-label" for="female3">Весна</label>
+				</div>
+				<div class="form__input">
+					<input class="input" type="radio" value="summer" name="season" id="female4">
+					<label class="form__checkbox-label" for="female4">Лето</label>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<textarea tabindex="2" class="input" name="message"></textarea>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<div class="file">
+						<label class="file__label" for="file">Выбрать файл</label>
+						<input accept=".jpg, .jpeg, .png" multiple class="file__input" id="file" type="file">
+					</div>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<select name="currency" class="form__select">
+						<option value="1">Пункт №1</option>
+						<option value="2">Пункт №2</option>
+						<option value="3" selected>Пункт №3</option>
+						<option value="4">Пункт №4</option>
+					</select>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__input">
+					<button class="form__button" type="button">Кнопка</button>
+					<button class="form__button" type="submit">Отправить</button>
+					<button class="form__button" type="reset">Очистить</button>
+				</div>
+			</div>
+		</form>
+
+
+		<button type="button">Я кнопка</button> -->
+
+</body>
+
+</html>
